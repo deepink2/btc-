@@ -50,23 +50,163 @@ namespace btC
                 Console.WriteLine("\nphuong trinh vo nghiem\n");
         }
 
+class tinhtoan
+        {
+            public float _5a(int n)
+            {
+                float s = 0;
+                for (int i = 1; i <= n; i++) {
+                    s += 1/(float)i;
+                    //Console.WriteLine("{0} | {1}",i,s);
+                }
+                return s;
+            }
+
+
+
+
+            public int _5c(int n)
+            {
+                int s = 0;
+                for (int i = 1; i <= n; i++)
+                {
+                    //Console.WriteLine("{0} | {1}| {2}", i,i*i*i,s);
+                    s += i*i*i;
+                }
+                return s;
+            }
+            public float _5b(int n)
+            {
+                float s = 0;
+                for (int i = 1; i <= n; i++)
+                {
+                    //Console.WriteLine("{0} | {1}| {2}", i, 1 / (float)i * (i + 1), s);
+                    s += 1/(float)(i*(i+1));
+                }
+                return s;
+            }
+
+            public int _5d(int n)
+            {
+                int s = 0,sign = -1; ;
+
+                for (int i = 1; i <= n; i++)
+                {
+                    //Console.WriteLine("{0} | {1}| {2}", i, sign, s);
+                    s += sign*i;
+
+                    sign = -sign;
+                }
+                return s;
+            }
+
+            public float _6b(int n)
+            {
+                float s = 0;
+
+                for (int i = 1; i <= n; i++)
+                {
+                    Console.WriteLine("{0} | {1}| {2}", i, 2*i-1,s);
+                    s += (2 * i - 1) / (float)i;
+
+                }
+                return s;
+            }
+
+            public float _6c(int n)
+            {
+                float s = 0;
+
+                for (int i = 1; i <= n; i++)
+                {
+                    Console.WriteLine("{0} | {1}| {2}", i, 2 * i - 1, s);
+                    s += (2 * i - 1) / (float)(2*i);
+
+                }
+                return s;
+            }
+
+            public float _6d(int n)
+            {
+                float s = 0;
+
+                for (int i = 1; i <= n; i++)
+                {
+                    Console.WriteLine("{0} | {1}| {2}", i, 2 * i - 1, s);
+                    s += 1+(1/(float)(i));
+
+                }
+                return s;
+            }
+
+            public void _7()
+            {
+                float donvi,tram,t = 0;
+
+                for (int i = 100; i<=999; i++)
+                {
+                    donvi = i % 10;
+                    tram = i / 100;
+                    if (donvi== tram)
+                        Console.WriteLine("{0} | {1}| {2}", i, tram , donvi);
+
+                }
+            }
+
+            public int _8(int n)
+            {
+                int x = n;
+                int i,s = 0;
+
+                if (n >= 100 && n<=999)
+                {
+                    while (x > 0)
+                    {
+                        i = x % 10;
+                        x = x / 10;
+                        s += i;
+                        Console.WriteLine("{0} | {1}| {2}", x, i, s);
+                    }
+
+                }
+                else Console.WriteLine("Nhap so 100...999");
+                return s;
+            }
+
+
+        }
+
 
 
         static void Main(string[] args)
         {
-            double a, b, c;
-            Console.WriteLine("Nhap a: ");
-            a=Convert.ToDouble(Console.ReadLine());
+            //double a, b, c;
+            //Console.WriteLine("Nhap a: ");
+            //a=Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Nhap b: ");
-            b = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Nhap b: ");
+            //b = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Nhap c: ");
-            c = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Nhap c: ");
+            //c = Convert.ToDouble(Console.ReadLine());
+            //GIaipt gpt = new GIaipt();
+            //gpt.ptb1(a, b);
+            //gpt.ptb2(a, b,c);
 
-            GIaipt gpt = new GIaipt();
-            gpt.ptb1(a, b);
-            gpt.ptb2(a, b,c);
+            int n;
+            tinhtoan t = new tinhtoan();
+            Console.WriteLine("Nhap n: ");
+            n =int.Parse(Console.ReadLine());
+            //Console.WriteLine("Result: {0}",t._5a(n));
+            //Console.WriteLine("Result: {0}", t._5b(n));
+            //Console.WriteLine("Result: {0}", t._5c(n));
+            //Console.WriteLine("Result: {0}", t._5d(n));
+
+            //Console.WriteLine("Result: {0}", t._6b(n));
+            //Console.WriteLine("Result: {0}", t._6c(n));
+            //Console.WriteLine("Result: {0}", t._6d(n));
+            //t._7();
+            Console.WriteLine("Result: {0}", t._8(n));
             Console.ReadKey();
         }
     }

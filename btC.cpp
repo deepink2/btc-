@@ -1,54 +1,73 @@
-
-#include "stdafx.h"
-#include <iostream>
-#include <math.h>
-using namespace std;
-
-//giai phuong trinh bac nhat Ax+b=0
-
-void ptb1(float a, float b) {
-	cout << "\ngiai phuong trinh bac nhat Ax+b=0\n";
-	if (a == 0)
-		if (b == 0) cout << "\nPt co vo so nghiem" << endl;
-		else cout << "\nPt vo nghiem" << endl;
-	else cout << "\nPt co nghiem la: " << -b / a << endl;
-}
-
-//giai phuong trinh bac nhat Hai Ax^2+bx+c=0
-
-float delta(float a, float b, float c) {
-	return b*b-4*a*c;
-}
-
-void ptb2(float a, float b,float c) {
-	cout << "\ngiai phuong trinh bac Hai Ax^2+bx+c=0\n";
-	float d = delta(a, b, c);
-	float x1, x2;
-	x1 = (-b - sqrt(d)) / 2 / a;
-	x2 = (-b + sqrt(d)) / 2 / a;
-	cout << "\nDelta: "<<d<<endl;
-	if (d > 0) {
-		cout << "\nphuong trinh co hai nghiem phan biet\n";
-		cout << "x1: " << x1 << " | x2: " << x2<<endl;
-	}
-
-	else if (d == 0) {
-		cout << "\nphuong trinh co 1 nghiem\n";
-		cout << "x: " << -b/2/a <<endl;
-	}
-
-	else
-		cout << "\nphuong trinh vo nghiem\n";
-}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 
-int main()
+namespace btC
 {
-	float a, b,c;
-	//cout << "Nhap a, b: "; cin >> a >> b;
-	//ptb1(a, b);
+    class GIaipt
+    {
 
-	cout << "Nhap a, b,c: "; cin >> a >> b>>c;
-	ptb2(a, b, c);
-	system("pause");
+        public void ptb1(double a, double b)
+        {
+            Console.WriteLine("\ngiai phuong trinh bac nhat Ax+b=0\n");
+            if (a == 0)
+                if (b == 0) Console.WriteLine("\nPt co vo so nghiem");
+                else Console.WriteLine("\nPt vo nghiem");
+            else Console.WriteLine("\nPt co nghiem la: {0}",Convert.ToDouble(-b / a));
+        }
+
+        double delta(double a, double b, double c)
+        {
+            return  Convert.ToDouble(b * b - 4 * a * c);
+        }
+        
+        void ptb2(double a, double b, double c)
+        {
+            Console.WriteLine("\ngiai phuong trinh bac Hai Ax^2+bx+c=0\n");
+            double d = delta(a, b, c);
+            double x1, x2;
+
+            x1 = Convert.ToDouble((-b - Math.Sqrt(d)) / 2 / a);
+            x2 = Convert.ToDouble((-b + Math.Sqrt(d)) / 2 / a);
+
+            Console.WriteLine("\nDelta: ",d);
+            if (d > 0)
+            {
+                Console.WriteLine("\nphuong trinh co hai nghiem phan biet\n");
+                Console.WriteLine("x1: {0} | x2: {1}",x1,x2);
+            }
+
+            else if (d == 0)
+            {
+                Console.WriteLine("\nphuong trinh co 1 nghiem\n");
+                Console.WriteLine("x: ", -b / 2 / a);
+            }
+
+            else
+                Console.WriteLine("\nphuong trinh vo nghiem\n");
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            double a, b, c;
+            Console.WriteLine("Nhap a: ");
+            a=Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Nhap b: ");
+            b = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Nhap c: ");
+            c = Convert.ToDouble(Console.ReadLine());
+
+            GIaipt gpt = new GIaipt();
+            gpt.ptb1(a, b);
+            gpt.ptb2(a, b,c);
+            Console.ReadKey();
+        }
+    }
 }

@@ -158,8 +158,6 @@ class tinhtoan
                 int x = n;
                 int i,s = 0;
 
-                if (n >= 100 && n<=999)
-                {
                     while (x > 0)
                     {
                         i = x % 10;
@@ -167,9 +165,6 @@ class tinhtoan
                         s += i;
                         Console.WriteLine("{0} | {1}| {2}", x, i, s);
                     }
-
-                }
-                else Console.WriteLine("Nhap so 100...999");
                 return s;
             }
 

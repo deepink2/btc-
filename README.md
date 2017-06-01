@@ -63,20 +63,13 @@ Community adapters exist for [CouchDB](https://github.com/search?q=sails+couch&n
 ## Tài liệu tham khảo online
 - [NetBeans IDE Java Quick Start Tutorial](https://netbeans.org/kb/docs/java/quickstart.html) Khởi đầu với NetBeans IDE.
 - [XAMPP Tutorial](https://blog.udemy.com/xampp-tutorial/) Cách cài đặt và sử dụng Xampp.
-- [Java How To: Connect to XAMPP's MySQL in Eclipse](https://nodehead.com/java-how-to-connect-to-xampps-mysql-in-eclipse/) Các kết nối CSDL với Java.
-
-## Support
-Need help or have a question?
-- [Frequently Asked Questions (FAQ)](http://sailsjs.com/faq)
-- [Tutorials](http://sailsjs.com/faq#?what-are-some-good-community-tutorials)
-- [Community support](http://sailsjs.com/support)
-- [Professional/Enterprise options](http://sailsjs.com/faq#?are-there-professional-support-options)
+- [Java How To: Connect to XAMPP's MySQL in Eclipse](https://nodehead.com/java-how-to-connect-to-xampps-mysql-in-eclipse/) Cách kết nối CSDL với Java.
 
 
 ## Issue Submission
 Please read the [submission guidelines](http://sailsjs.com/documentation/contributing/issue-contributions) and [code of conduct](http://sailsjs.com/documentation/contributing/code-of-conduct) before opening a new issue.  Click [here](https://github.com/balderdashy/sails/search?q=&type=Issues) to search/post issues in this repository.
 
-## Contribute
+## Phân chia thực hiện
 There are many different ways you can contribute to Sails:
 - answering questions on [StackOverflow](http://stackoverflow.com/questions/tagged/sails.js), [Gitter](https://gitter.im/balderdashy/sails), [IRC](http://sailsjs.com/support/about-irc), [Facebook](https://www.facebook.com/sailsjs), or [Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%40sailsjs%20OR%20%23sailsjs%20OR%20sails.js%20OR%20sailsjs&src=typd)
 - improving the [documentation](https://github.com/balderdashy/sails-docs#contributing-to-the-docs) or [website](https://github.com/balderdashy/www.sailsjs.com/issues)
@@ -89,17 +82,8 @@ There are many different ways you can contribute to Sails:
 _Please carefully read our [contribution guide](http://sailsjs.com/documentation/contributing) and check the [build status](http://sailsjs.com/architecture) for the relevant branch before submitting a pull request with code changes._
 
 
-## Links
-- [Website](http://sailsjs.com/)
-- [Documentation](http://sailsjs.com/documentation)
-- [Ask a question](http://sailsjs.com/support)
-- [Roadmap](https://trello.com/b/s9zEnyG7/sails-v1)
-- [Twitter (@sailsjs)](https://twitter.com/sailsjs)
-- [Newsgroup](https://groups.google.com/forum/#!forum/sailsjs)
-- [Facebook](https://www.facebook.com/sailsjs)
-
 ## Nhóm
-Sails is actively maintained with the help of many amazing [contributors](https://github.com/balderdashy/sails/graphs/contributors).  Our core team consists of:
+Danh sách nhóm sinh viên thực hiện:
 
 [![Trần Lục Long Tính](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/tinh.dk) |  [![Hoàng Công Kiên](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/hck1996)| [![Huỳnh Vân Nhật](https://0.gravatar.com/avatar/b74e07aa543552709bf546ca279c9c67?s=144)](https://www.facebook.com/hvn96) | [![Lê Hùng Phú](https://avatars0.githubusercontent.com/u/1598650?v=3&s=144)](https://www.facebook.com/lynklee.le)
 :---:|:---:|:---:|:---:
@@ -107,7 +91,7 @@ Sails is actively maintained with the help of many amazing [contributors](https:
 
 [The Sails Company](http://sailsjs.com/about) designs/builds scalable Node.js apps for startups and enterprise customers. After building a few applications and taking them into production, we realized that the Node.js development landscape was very much still the Wild West. Over time, after trying lots of different methodologies, we decided to crystallize all of our best practices into this framework.  Five years later, Sails is now one of the most widely-used web application frameworks in the world. I hope it saves you some time! :)
 
-## License
+## Giấy phép
 
 [MIT License](http://sailsjs.com/license)  Copyright © 2012-2017 Mike McNeil, Balderdash Design Co., & The Sails Company
 

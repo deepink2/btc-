@@ -1,5 +1,5 @@
 <h1>
-<a href="https://github.com/Quanlynhankhau-dhcn1a"><img alt="" src="http://logozee.com/wp-content/uploads/2012/11/coffee-logo-5.png" title="QLNK"/></a>
+<a href="https://github.com/Quanlynhankhau-dhcn1a"><img alt="" src="https://1.bp.blogspot.com/-n_qrjKHlmSE/VMIpx10k3aI/AAAAAAAALK0/_HZidjaaj8c/s1600/coffee.png" title="QLNK"/></a>
 </h1>
 
 ### [Website](http://sailsjs.com/)  &nbsp; [Get Started](http://sailsjs.com/get-started) &nbsp;  [Docs](http://sailsjs.com/documentation)  &nbsp; [News](http://twitter.com/sailsjs) &nbsp; [Submit Issue](http://sailsjs.com/bugs)

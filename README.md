@@ -102,7 +102,7 @@ _Please carefully read our [contribution guide](http://sailsjs.com/documentation
 Sails is actively maintained with the help of many amazing [contributors](https://github.com/balderdashy/sails/graphs/contributors).  Our core team consists of:
 
 [![Trần Lục Long Tính](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/tinh.dk) |  [![Hoàng Công Kiên](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/hck1996)| [![Huỳnh Vân Nhật](https://0.gravatar.com/avatar/b74e07aa543552709bf546ca279c9c67?s=144)](https://www.facebook.com/hvn96) | [![Lê Hùng Phú](https://avatars0.githubusercontent.com/u/1598650?v=3&s=144)](https://www.facebook.com/lynklee.le)
-:--------:|:--------:|:--------:|:--------:
+:---:|:---:|:---:|:---:
 [Trần Lục Long Tính](https://github.com/tinhdk1) | [Hoàng Công Kiên](https://github.com/deepink2) | [Huỳnh Vân Nhật](https://github.com/huynhvannhat) | [Lê Hùng Phú](https://github.com/lehungphu)
 
 [The Sails Company](http://sailsjs.com/about) designs/builds scalable Node.js apps for startups and enterprise customers. After building a few applications and taking them into production, we realized that the Node.js development landscape was very much still the Wild West. Over time, after trying lots of different methodologies, we decided to crystallize all of our best practices into this framework.  Five years later, Sails is now one of the most widely-used web application frameworks in the world. I hope it saves you some time! :)

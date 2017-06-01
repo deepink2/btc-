@@ -101,7 +101,7 @@ _Please carefully read our [contribution guide](http://sailsjs.com/documentation
 ## Team
 Sails is actively maintained with the help of many amazing [contributors](https://github.com/balderdashy/sails/graphs/contributors).  Our core team consists of:
 
-[![Mike McNeil](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](http://twitter.com/mikermcneil) |  [![Cody Stoltman](https://1.gravatar.com/avatar/368567acca0c5dfb9a4ff512c5c0c3fa?s=144)](http://twitter.com/particlebanana) | [![Scott Gress](https://0.gravatar.com/avatar/b74e07aa543552709bf546ca279c9c67?s=144)](http://twitter.com/sgress454) | [![Irl Nathan](https://avatars0.githubusercontent.com/u/1598650?v=3&s=144)](http://twitter.com/irlnathan) | [![Rachael Shaw](https://avatars0.githubusercontent.com/u/3065949?v=3&s=144)](http://twitter.com/fancydoilies)
+[![Mike McNeil](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](http://twitter.com/mikermcneil) |  [![Cody Stoltman](https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/18664384_1706876635995995_8059585233047582591_n.jpg?oh=8a900d1afc2de67aac0b0d5977451052&oe=59E16D67) | [![Scott Gress](https://0.gravatar.com/avatar/b74e07aa543552709bf546ca279c9c67?s=144)](http://twitter.com/sgress454) | [![Irl Nathan](https://avatars0.githubusercontent.com/u/1598650?v=3&s=144)](http://twitter.com/irlnathan) | [![Rachael Shaw](https://avatars0.githubusercontent.com/u/3065949?v=3&s=144)](http://twitter.com/fancydoilies)
 :---:|:---:|:---:|:---:|:---:
 [Mike McNeil](http://github.com/mikermcneil) | [Cody Stoltman](https://github.com/particlebanana) | [Scott Gress](https://github.com/sgress454) | [Irl Nathan](https://github.com/irlnathan) | [Rachael Shaw](https://github.com/rachaelshaw)
 

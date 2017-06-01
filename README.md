@@ -3,7 +3,9 @@
 </h1>
 
 ## Các phần mềm cần thiết &nbsp;
-**With [node](http://nodejs.org) [installed](http://nodejs.org/en/download):**
+- [Xampp](https://www.apachefriends.org/index.html)
+- [NetBeans IDE](https://netbeans.org/)
+- [Java](https://www.java.com/en/download/)
 ```sh
 # Get the latest stable release of Sails
 $ npm install sails -g

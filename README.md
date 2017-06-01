@@ -60,10 +60,10 @@ Community adapters exist for [CouchDB](https://github.com/search?q=sails+couch&n
 
 > For the latest core adapters and notable community adapters, see [Available Adapters](http://sailsjs.com/documentation/concepts/extending-sails/adapters/available-adapters).
 
-## Books
-- [Sails.js in Action](https://www.manning.com/books/sails-js-in-action) by Mike McNeil and Irl Nathan (Manning Publications).
-- [Sails.js Essentials](https://www.packtpub.com/web-development/sailsjs-essentials) by Shaikh Shahid (Packt)
-- [Pro Express.js: Part 3](http://link.springer.com/chapter/10.1007%2F978-1-4842-0037-7_18) by Azat Mardan (Apress).
+## Tài liệu tham khảo online
+- [NetBeans IDE Java Quick Start Tutorial](https://netbeans.org/kb/docs/java/quickstart.html) Khởi đầu với NetBeans IDE.
+- [XAMPP Tutorial](https://blog.udemy.com/xampp-tutorial/) Cách cài đặt và sử dụng Xampp.
+- [Java How To: Connect to XAMPP's MySQL in Eclipse](https://nodehead.com/java-how-to-connect-to-xampps-mysql-in-eclipse/) Các kết nối CSDL với Java.
 
 ## Support
 Need help or have a question?
@@ -98,7 +98,7 @@ _Please carefully read our [contribution guide](http://sailsjs.com/documentation
 - [Newsgroup](https://groups.google.com/forum/#!forum/sailsjs)
 - [Facebook](https://www.facebook.com/sailsjs)
 
-## Team
+## Nhóm
 Sails is actively maintained with the help of many amazing [contributors](https://github.com/balderdashy/sails/graphs/contributors).  Our core team consists of:
 
 [![Trần Lục Long Tính](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/tinh.dk) |  [![Hoàng Công Kiên](http://gravatar.com/avatar/199046437b76e6ca73e00b4cc182a1c5?s=144)](https://www.facebook.com/hck1996)| [![Huỳnh Vân Nhật](https://0.gravatar.com/avatar/b74e07aa543552709bf546ca279c9c67?s=144)](https://www.facebook.com/hvn96) | [![Lê Hùng Phú](https://avatars0.githubusercontent.com/u/1598650?v=3&s=144)](https://www.facebook.com/lynklee.le)

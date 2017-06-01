@@ -5,7 +5,7 @@
 ## Các phần mềm cần thiết &nbsp;
 - [Xampp](https://www.apachefriends.org/index.html)
 - [NetBeans IDE](https://netbeans.org/)
-- [Java](https://www.java.com/en/download/)
+- [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 ```sh
 # Get the latest stable release of Sails
 $ npm install sails -g
